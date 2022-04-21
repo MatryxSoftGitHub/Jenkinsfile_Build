@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Windows10'}
+    agent any
     
     stages {
         stage('Build') {
